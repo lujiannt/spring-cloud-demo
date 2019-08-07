@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="module_client1" />
+        <module name="sys_auth" />
+        <module name="sys_ribbon" />
+        <module name="module_client2" />
+        <module name="module_shop" />
+        <module name="sys_config_server" />
+        <module name="sys_feign" />
+        <module name="eureka" />
+        <module name="sys_zuul" />
+        <module name="module_user" />
+        <module name="module_schedule" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="module_login" target="1.8" />
+      <module name="sys_oss" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka" options="-parameters" />
+      <module name="module_client1" options="-parameters" />
+      <module name="module_client2" options="-parameters" />
+      <module name="module_login" options="-parameters" />
+      <module name="module_schedule" options="-parameters" />
+      <module name="module_shop" options="-parameters" />
+      <module name="module_user" options="-parameters" />
+      <module name="sys_auth" options="-parameters" />
+      <module name="sys_config_server" options="-parameters" />
+      <module name="sys_feign" options="-parameters" />
+      <module name="sys_oss" options="-parameters" />
+      <module name="sys_ribbon" options="-parameters" />
+      <module name="sys_zuul" options="-parameters" />
+    </option>
+  </component>
+</project>
